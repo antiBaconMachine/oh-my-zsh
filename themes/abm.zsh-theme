@@ -3,5 +3,5 @@ NEWLINE=$'\n'
 source ~/dev/zsh-git-prompt/zshrc.sh
 plugins=(git node npm mvn nyan osx per-directory-history pod python sbt scala screen chucknorris git-extras lighthouse meteor sudo)
 source ~/.common_shellrc.sh
-PROMPT='${ret_status}%D{%a %H:%M} %B🚀 %F{cyan}%~%f%b $(git_super_status) ${NEWLINE}%(!.#.❯)'
+PROMPT='${ret_status}%D{%a %H:%M} %B%M %F{cyan}%~%f%b $(git_super_status) ${NEWLINE}%(!.#.❯)'
 fortune | cowsay -s
