@@ -5,3 +5,6 @@ plugins=(git node npm mvn nyan osx per-directory-history pod python sbt scala sc
 source ~/.common_shellrc.sh
 PROMPT='${ret_status}%D{%a %H:%M} %B%M %F{cyan}%~%f%b $(git_super_status) ${NEWLINE}%(!.#.❯)'
 fortune | cowsay -s
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
